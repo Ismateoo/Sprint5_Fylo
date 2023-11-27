@@ -54,3 +54,8 @@
     font-size: 0.6rem;
 } 
 
+@media screen and (max-width: 375px) {
+    .tarjeta__comillas{  
+        top: -5%    
+    }
+  }

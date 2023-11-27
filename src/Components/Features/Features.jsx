@@ -4,7 +4,7 @@ import features from '../../data/features.json';
 export default function Caracteristicas() {
   return(
 
-  <div className="features">
+  <div className="features" id="features">
       {features.map(data => (
         
           <div className="features__contenedor">

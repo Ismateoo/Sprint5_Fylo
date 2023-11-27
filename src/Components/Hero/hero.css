@@ -20,3 +20,18 @@
 .hero__titulo{
     font-size: 2.5rem;
 }
+
+
+@media screen and (max-width: 375px) {
+    .hero__imagen{
+        width: 90%;
+    }
+    .hero__titulo{
+        font-size: 2rem;
+    }
+
+    .hero__imagenFondo{
+        background-image: url("./icons/bg-curvy-mobile.svg");
+        top: 785px;
+    }
+  }

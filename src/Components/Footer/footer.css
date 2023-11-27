@@ -37,7 +37,6 @@ footer{
 }
 
 
-
 .footer__listas{
     display: flex; 
 }
@@ -67,3 +66,29 @@ footer{
     border-radius: 50px;
 }
 
+@media screen and (max-width: 375px) {
+    
+    footer{
+        padding: 20px;
+        padding-top: 200px;
+        gap: 20px;
+    }
+    
+    
+    .footer__texto{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        text-align: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__listas{
+        display: flex; 
+        flex-direction: column;
+    }
+    .footer__redes{
+      padding: 40px 80px;
+    }
+  }

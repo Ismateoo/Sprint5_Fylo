@@ -13,19 +13,14 @@ function App() {
 
   return (
     <div className="contenedor">
-      <div className="contenedor__arriba">
-        <Nav />
-        <Hero />
-      </div>
-      <div className="contenedor__abajo">
-        <Features />
-        <StayProductive/>
-        <Testimonials/>
-        <EarlyAccess/>
-        <Footer/>
-      </div>
+      <Nav />
+      <Hero />
+      <Features />
+      <StayProductive />
+      <Testimonials />
+      <EarlyAccess />
+      <Footer />
     </div>
-    
   );
 }
 

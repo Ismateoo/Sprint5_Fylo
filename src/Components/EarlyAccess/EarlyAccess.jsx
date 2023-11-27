@@ -26,7 +26,7 @@ export default function EarlyAccess() {
   };
 
   return (
-    <div className="earlyAccess">
+    <div className="earlyAccess" id="earlyAccess">
       <div className="earlyAccess__tarjeta">
         <div className="earlyAccess__texto">
           <h1 className="earlyAccess__titulo">Get early access today</h1>

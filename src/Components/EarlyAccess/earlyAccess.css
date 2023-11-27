@@ -26,9 +26,6 @@
     width: 390px;
 }
 
-
-
-
 .formError{
     display: flex;
     flex-direction: column;
@@ -43,3 +40,18 @@
     font-weight: 700;
 }
 
+
+@media screen and (max-width: 375px) {
+    .earlyAccess{
+        width: 90%;
+        padding: 30px 60px;
+    }  
+    
+    .earlyAccess__form{ 
+        flex-direction: column;     
+    }
+
+    .form__input{
+        width: auto;
+    }
+  }

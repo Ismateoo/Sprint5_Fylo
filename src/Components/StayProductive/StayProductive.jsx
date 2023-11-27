@@ -2,9 +2,9 @@ import "./stayProductive.css"
 
 export default function StayProductive(){
     return(
-        <section className="stayProductive">
+        <section className="stayProductive" id="stayProductive">
             <div className="stayProductive__imagen">
-                <img src="./images/illustration-stay-productive.png" alt="" />
+                <img src="./images/illustration-stay-productive.png" alt="" className="stayProductive__imagen--mobile"/>
             </div>
             <div className="stayProductive__texto">
                 <h1 className="stayProductive__titulo">Stay productive, <br />
