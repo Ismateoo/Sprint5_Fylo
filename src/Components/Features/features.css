@@ -1,0 +1,14 @@
+.features{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features__contenedor{
+    text-align: center;
+    width: 430px;
+    margin: 60px;
+}
+

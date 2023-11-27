@@ -1,0 +1,10 @@
+button{
+    background: rgb(129,217,212);
+    background: linear-gradient(90deg, rgba(129,217,212,1) 0%, rgba(51,158,204,1) 100%);
+    border-radius: 50px;
+    border: none;
+    padding: 15px 70px;
+    font-weight: 700;
+    color: white;
+    
+}

@@ -1,0 +1,22 @@
+.hero__contenedor{
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    background-color: hsl(217, 28%, 15%);
+    z-index: 1;
+}
+
+.hero__imagenFondo{
+    background-image: url("./icons/bg-curvy-desktop.svg");
+    position: absolute;
+    z-index: -1;
+    width: 1440px;
+    height: 449px; 
+    background-repeat: no-repeat;
+    top: 720px;
+}
+
+.hero__titulo{
+    font-size: 2.5rem;
+}

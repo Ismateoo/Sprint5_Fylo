@@ -1,0 +1,14 @@
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 20px;
+}
+
+.links__item{
+    list-style: none;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
