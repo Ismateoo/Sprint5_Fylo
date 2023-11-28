@@ -1,12 +1,13 @@
 .testimonials{
-    /* background-color: hsl(218, 28%, 13%); */
-    margin-top: 200px;
-    margin-bottom: 50px;
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 200px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     position: relative;
     gap: 40px;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .testimonials__tarjeta{
@@ -18,7 +19,7 @@
 
 .tarjeta__comillas{
     position: absolute;
-    top: -15%;
+    top: 36%;
     left: 5%;
     z-index: -1;
 }
@@ -56,6 +57,6 @@
 
 @media screen and (max-width: 375px) {
     .tarjeta__comillas{  
-        top: -5%    
+        top: 17.5%    
     }
   }

@@ -1,4 +1,10 @@
 .earlyAccess{
+    width: 100%;
+    background-color: hsl(217, 28%, 13%);
+}
+
+
+.earlyAccess__tarjeta{
     box-sizing: border-box;
     background-color:  hsl(217, 28%, 15%);
     border-radius: 10px;
@@ -42,10 +48,11 @@
 
 
 @media screen and (max-width: 375px) {
-    .earlyAccess{
+ 
+    .earlyAccess__tarjeta{
         width: 90%;
         padding: 30px 60px;
-    }  
+}
     
     .earlyAccess__form{ 
         flex-direction: column;     
